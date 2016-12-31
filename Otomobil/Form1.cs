@@ -16,5 +16,16 @@ namespace Otomobil
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            Porsche superAraba = new Porsche();
+            Tofas duldul = new Tofas();
+
+            MessageBox.Show(superAraba.Yazdir());
+            MessageBox.Show(superAraba.Calistir());
+            MessageBox.Show(duldul.Yazdir());
+            MessageBox.Show(duldul.Calistir());
+        }
     }
 }
