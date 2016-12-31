@@ -17,7 +17,7 @@ namespace Otomobil
         }
         public override string Calistir()
         {
-            return "vUUU vUU";
+            return "Vuu Vuu";
         }
     }
 }
